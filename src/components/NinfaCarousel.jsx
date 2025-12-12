@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import "./carousel.css"; // Estilos modernos
+import "./carousel.css"; 
 import { motion } from "framer-motion";
 
 function NinfaCarousel() {
@@ -100,7 +100,6 @@ function NinfaCarousel() {
             key={btn.id}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            key={btn.id}
             ref={(el) => (buttonRefs.current[index] = el)}
             style={styles.button_nidada}
             onClick={() => consultaNidada(btn.nidada)}

@@ -5,7 +5,7 @@ function Navbar({ onOpenRegister }) {
     return (
       <nav style={styles.nav}>
         <div style={styles.left}>
-          <img src="https://onuris-my.sharepoint.com/:i:/r/personal/1029221_onuriscp_com/Documents/Imagenes/LOGO_130x130.png?csf=1&web=1&e=hkafJy"
+          <img src="https://res.cloudinary.com/dfmn1wvfh/image/upload/v1765512939/LOGO_130x130_p3j4gs.png"
             alt="Logo"
             style={styles.logo}
             onClick={()=> window.location.reload()}
