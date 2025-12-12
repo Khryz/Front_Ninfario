@@ -4,7 +4,7 @@ import "./Loader.css";
 export default function Loader() {
   return (
     <div className="loader-container">
-        <img src="https://onuris-my.sharepoint.com/:i:/r/personal/1029221_onuriscp_com/Documents/Imagenes/Logo_700x700.png?csf=1&web=1&e=Qbfa0I" alt="logo" className="spin-logo" />
+        <img src="https://res.cloudinary.com/dfmn1wvfh/image/upload/v1765512940/Logo_700x700_optvcn.png" alt="logo" className="spin-logo" />
           
     </div>
   );
