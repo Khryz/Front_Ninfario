@@ -24,7 +24,7 @@ function RegisterModal({ onClose }) {
       message: message,
     }
     try {
-      const response = await fetch("https://backninfario-production.up.railway.app/api/v1/users/create", {
+      const response = await fetch("http://127.0.0.1:8000/api/v1/users/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
