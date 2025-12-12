@@ -14,13 +14,13 @@ function NinfaCarousel() {
     const loadButtons = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/api/v1/ninfas/get-nidada"
+          "https://backninfario-production.up.railway.app/api/v1/ninfas/get-nidada"
         );
         const data = await response.json();
 
         if (response.status == 200) {
           const responseNidadaNinfas = await fetch(
-            "http://127.0.0.1:8000/api/v1/ninfas/get-one-nidada/" +
+            "https://backninfario-production.up.railway.app/api/v1/ninfas/get-one-nidada/" +
               data.resultado[0].nidada
           );
           const dataNidadaNinfas = await responseNidadaNinfas.json();
@@ -63,7 +63,7 @@ function NinfaCarousel() {
   const consultaNidada = async (nidada) => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/v1/ninfas/get-one-nidada/" + nidada
+        "https://backninfario-production.up.railway.app/api/v1/ninfas/get-one-nidada/" + nidada
       );
       const result = await response.json();
 
