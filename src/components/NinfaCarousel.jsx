@@ -81,7 +81,7 @@ function NinfaCarousel() {
 
   const saludo = () => {
     try {
-      alert("¡Hola!");
+      alert("!En breve se te comunicará con un cuidador!");
     } catch (error) {
       console.error("Error al consumir el servicio:", error);
     }
